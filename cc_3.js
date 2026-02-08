@@ -43,3 +43,8 @@ console.log("Customer Summary")
 customers.forEach(Customer => {
     console.log(`Customer: ${customers.name} | Email: ${customers.email} | Total Purchases: ${customer.purchases.length}`)
 }) 
+
+// Change "Customer" to "customer" to fix error
+customers.forEach(customer => {
+    console.log(`Customer: ${customer.name} | Email: ${customer.email} | Total Purchases: ${customer.purchases.length}`)
+})
