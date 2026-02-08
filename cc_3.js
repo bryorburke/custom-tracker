@@ -42,4 +42,4 @@ console.log("After Updates:", customers)
 console.log("Customer Summary")
 customers.forEach(Customer => {
     console.log(`Customer: ${customers.name} | Email: ${customers.email} | Total Purchases: ${customers.purchases.length}`)
-})
+}) 
